@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".calculator">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost Calculator"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="package weight: "
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/weight"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/weight"
+        android:layout_below="@id/title"
+        android:id="@+id/weightET"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: "
+        android:layout_below="@+id/weight"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/distance"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/weight"
+        android:layout_below="@id/weightET"
+        android:id="@+id/distanceET"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Type: "
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/delivery_type"
+        android:layout_marginLeft="20dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@id/distanceET"
+        android:layout_toRightOf="@id/delivery_type"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/calculate"
+        android:layout_below="@id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/op"
+        android:layout_below="@+id/calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+</RelativeLayout>
