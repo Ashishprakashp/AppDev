@@ -88,7 +88,7 @@ public class signup extends AppCompatActivity {
                                         } else {
                                             // User does not have an account, proceed with signup
                                             mAuth.createUserWithEmailAndPassword(email, password)
-                                                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                                         @Override
                                                         public void onComplete(@NonNull Task<AuthResult> task) {
 
