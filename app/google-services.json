@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614360063034",
+    "project_id": "credentials-5547f",
+    "storage_bucket": "credentials-5547f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614360063034:android:04947aadf361d50d27a903",
+        "android_client_info": {
+          "package_name": "com.example.e_courier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD-cp0PdUOrV6-5dFSux9puuszxxrnXTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
